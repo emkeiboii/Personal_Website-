@@ -2,11 +2,37 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
 }
 
-.intro{
-  background-color: azure;
-  height: 100%;
-  width: 100%;
-  
+body {
+  background-color: #f8f4f0;
+}
+
+/* navbar */
+
+.nav {
+  display: flex;
+  padding: 35px 7.5%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  row-gap: 100px;
+}
+
+.nav ul li{
+  list-style: none;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.nav ul li a{
+  text-decoration: none;
+  color: #505050;
+  cursor: pointer;
+}
+
+.nav ul li a span{
+  font-weight: 800;
+  font-size: 1.5em;
 }
