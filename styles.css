@@ -1,8 +1,16 @@
+@font-face {
+  font-family: 'Andora Modern Serif';
+  src:url('AndoraModernSerif.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Inter', Helvetica, sans-serif
 }
 
 body{
@@ -13,7 +21,7 @@ body{
 /* navbar */
 
 .navbar{
-  padding: 4vh 7vw;
+  padding: 4vh 10vw;
 }
 
 ul{
@@ -31,7 +39,7 @@ li, a, span{
   color: #505050;
   text-decoration: none;
   font-size: 1.15em;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 li a span{
@@ -43,4 +51,11 @@ li a span{
 .hero span{
   color: #505050;
   font-weight: 800;
+}
+
+h1{
+  font-family: 'Andora Modern Serif';
+  font-size: 5em;
+  font-weight: normal;
+  color: #505050;
 }
