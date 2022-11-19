@@ -32,30 +32,57 @@ ul{
 
 li{
   display: inline-block;
-  padding: 0 18px;
 }
 
 li, a, span{
   color: #505050;
   text-decoration: none;
   font-size: 1.15em;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 li a span{
-  font-weight: 800;
+  font-weight: 700;
   font-size: 1.25em;
 }
 
 
-.hero span{
-  color: #505050;
-  font-weight: 800;
+
+
+/* hero */
+.hero{
+  padding: 6vh 10vw;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.header img{
+  height: 4vw;
 }
 
 h1{
   font-family: 'Andora Modern Serif';
-  font-size: 5em;
+  font-size: 4vw;
   font-weight: normal;
   color: #505050;
+  margin: 1.25vw 0 0;
 }
+
+.hero p{
+  font-size: 1.8vw;
+  color: #505050;
+  font-weight: 300;
+  padding: 7vh 10vw;
+  text-align: center;
+}
+
+.hero p > span{
+  font-size: 1em;
+  font-weight: 700;
+}
+
