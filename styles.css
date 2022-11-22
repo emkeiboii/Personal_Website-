@@ -53,11 +53,18 @@ li a span{
   color: #505050;
   transition: background-size, .5s, color, .5s;
 }
+
 .navbar:hover {
   background-size: 100% 100%;
+}
+
+.navbar:hover a{
   color: #f8f4f0;
 }
 
+.navbar:hover span{
+  color: #f8f4f0;
+}
 
 
 /* hero */
@@ -103,5 +110,4 @@ h1{
   height: 90vh;
   left: 30%;
   position: absolute;
-
 }
