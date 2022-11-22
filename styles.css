@@ -20,9 +20,6 @@ body{
 
 /* navbar */
 
-.navbar{
-  padding: 4vh 10vw;
-}
 
 ul{
   display: flex;
@@ -34,11 +31,12 @@ li{
   display: inline-block;
 }
 
-li, a, span{
+a, span{
   color: #505050;
   text-decoration: none;
   font-size: 1.15em;
   font-weight: 300;
+  z-index: 10;
 }
 
 li a span{
@@ -46,6 +44,19 @@ li a span{
   font-size: 1.25em;
 }
 
+.navbar{
+  padding: 4vh 10vw;
+  background-image: linear-gradient(#505050, #505050);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 0%;
+  color: #505050;
+  transition: background-size, .5s, color, .5s;
+}
+.navbar:hover {
+  background-size: 100% 100%;
+  color: #f8f4f0;
+}
 
 
 
