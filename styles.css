@@ -92,11 +92,12 @@ h1{
 }
 
 .hero p{
-  font-size: 1.8vw;
+  font-size: 2vw;
   color: #505050;
   font-weight: 300;
-  padding: 7vh 10vw;
+  padding: 7vh 9vw;
   text-align: center;
+  letter-spacing: 0.9rem;
 }
 
 .hero p > span{
@@ -105,9 +106,26 @@ h1{
 }
 
 /* moon */
+.downloadcv{
+  position: relative;
+  text-align: center;
+}
 
 .downloadcv img{
-  height: 90vh;
-  left: 30%;
-  position: absolute;
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: 80vh;
+width: 80vh;
+}
+
+.downloadcv p{
+  z-index: 3;
+  position:absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f8f4f0;
+  font-weight: 700;
+  font-size: 3em;
 }
