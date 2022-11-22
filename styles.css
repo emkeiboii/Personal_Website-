@@ -75,8 +75,9 @@ li a span{
 .header{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:center;
   overflow: hidden;
+  gap: 1vh;
 }
 
 .header img{
@@ -97,7 +98,7 @@ h1{
   font-weight: 300;
   padding: 7vh 9vw;
   text-align: center;
-  letter-spacing: 0.9rem;
+  letter-spacing: 0.5rem;
 }
 
 .hero p > span{
