@@ -109,7 +109,10 @@ h1{
 
 /* moon */
 .downloadcv{
-  position: relative;
+  position: fixed;
+  top: 105vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
@@ -145,7 +148,7 @@ h1{
   font-size: 3em;
 }
 
-/* "about" section */
+/* "about" page */
 
 hr{
   width: 40%;
@@ -157,7 +160,7 @@ hr{
   justify-content: center;
   padding: 2vw 10vw;
   gap: 2vw;
-  align-items: center;
+  vertical-align: middle;
 
 }
 
@@ -167,12 +170,24 @@ hr{
   width: 13vw;
   height: 13vw;
   border-radius: 2.5vw;
+  cursor: pointer;
+  transition: 0.5s;
+}
 
+.square:hover{
+  color: #f8f4f0;
+  background-color: #505050;
+}
+
+.absoluteSquare{
+  position: absolute;
+  background-color: #505050;
+  height: 16vw;
 }
 
 .square p{
   line-height: 13vw;
-    font-family: 'Andora Modern Serif';
+  font-family: 'Andora Modern Serif';
   font-size: 2vw;
   text-align: center;
 }
