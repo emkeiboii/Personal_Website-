@@ -114,6 +114,16 @@ h1{
   left: 50vw;
   transform: translate(-50%, -50%);
   text-align: center;
+  z-index: -1;
+}
+
+.moontwo{
+  position: fixed;
+  top: 108vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: -1;
 }
 
 @keyframes rotation {
@@ -134,7 +144,6 @@ h1{
   animation: rotation 120s infinite linear;
   border-radius: 40vh;
   box-shadow: 0 0 3vh;
-
 }
 
 .downloadcv p{
@@ -146,6 +155,17 @@ h1{
   color: #f8f4f0;
   font-weight: 700;
   font-size: 3em;
+}
+
+.moontwo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60vh;
+  width: 60vh;
+  animation: rotation 120s infinite linear;
+  border-radius: 30vh;
+  box-shadow: 0 0 3vh;
 }
 
 /* "about" page */
@@ -191,3 +211,28 @@ hr{
   font-size: 2vw;
   text-align: center;
 }
+
+/* Contacts */
+
+
+.contenttwo{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4vh 20vw;
+}
+
+.bubble{
+  flex: 0 1;
+  gap: 1vh;
+}
+
+.contenttwo > .bubble{
+  flex: 50%;
+  text-align: center;
+  border: 1px solid #505050;
+}
+
+.bubble a{
+  font-size: 1.5em;
+}
+
