@@ -154,7 +154,7 @@ h1{
   transform: translate(-50%, -50%);
   color: #f8f4f0;
   font-weight: 700;
-  font-size: 3em;
+  font-size: 3vw;
 }
 
 .moontwo img{
@@ -175,59 +175,25 @@ hr{
   margin-left: auto;
   margin-right: auto;
 }
+
 .content{
-  display: flex;
-  justify-content: center;
-  padding: 2vw 10vw;
-  gap: 2vw;
-  vertical-align: middle;
-
-}
-
-.square{
-  border: 1px solid #505050;
-  color: #505050;
-  width: 13vw;
-  height: 13vw;
-  border-radius: 2.5vw;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-.square:hover{
-  color: #f8f4f0;
-  background-color: #505050;
-}
-
-.absoluteSquare{
-  position: absolute;
-  background-color: #505050;
-  height: 16vw;
-}
-
-.square p{
-  line-height: 13vw;
-  font-family: 'Andora Modern Serif';
-  font-size: 2vw;
-  text-align: center;
+  padding: 4vh 10vw;
 }
 
 /* Contacts */
 
 
 .contenttwo{
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   padding: 4vh 20vw;
 }
 
 .bubble{
-  flex: 0 1;
-  gap: 1vh;
+  padding: 1vw;
 }
 
 .contenttwo > .bubble{
-  flex: 50%;
   text-align: center;
   border: 1px solid #505050;
 }
