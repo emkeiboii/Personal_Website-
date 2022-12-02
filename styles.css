@@ -176,6 +176,16 @@ hr{
 
 .content{
   padding: 4vh 10vw;
+  position: absolute;
+}
+
+.content p{
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #f8f4f0;
+  background-color: #505050;
+  padding: 4vh;
+  border-radius: 2vh;
 }
 
 /* Contacts */
@@ -199,6 +209,11 @@ hr{
 .bubble a{
   font-size: 1.5em;
 }
+
+
+
+
+/*  MEDIA QUERIES */
 
 @media screen and (max-width:770px){
   .navbar{
@@ -254,4 +269,21 @@ hr{
     height: 70vh;
     width: 70vh;
   }
+
+  .moontwo img{
+    height: 50vh;
+    width: 50vh;
+    border-radius: 25vh;
+  }
+
+  .content {
+    padding: 3vh 5vw;
+  }
+
+  .content p{
+    font-size: 1em;
+    padding: 3vh 5vw;
+  }
+
+
 }
