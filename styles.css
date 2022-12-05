@@ -34,11 +34,15 @@ li{
 }
 
 a, span{
-  color: #505050;
   text-decoration: none;
+  color: #505050;
   font-size: 1.15em;
   font-weight: 300;
-  z-index: 10;
+  text-transform: uppercase;
+}
+
+.navbar span{
+  text-transform: lowercase;
 }
 
 li a span{
@@ -97,6 +101,7 @@ h1{
   font-weight: normal;
   color: #505050;
   margin: 1.25vw 0 0;
+  text-transform: uppercase;
 }
 
 .hero p{
@@ -106,6 +111,7 @@ h1{
   padding: 7vh 11vw;
   text-align: center;
   letter-spacing: 0.2rem;
+  text-transform: uppercase;
 }
 
 .hero p > span{
@@ -166,7 +172,7 @@ h1{
   box-shadow: 0 0 3vh;
 }
 
-/* "about" page */
+/* ABOUT ME */
 
 hr{
   width: 40%;
@@ -174,20 +180,24 @@ hr{
   margin-right: auto;
 }
 
+.container{
+  padding: 4vh 15vw;
+}
+
 .content{
-  padding: 4vh 10vw;
-  position: absolute;
+  background-color: #f8f4f0;
+  border-radius: 2vh;  
+  box-shadow: 0 0 3vh rgba(0, 0, 0, 0.3);
 }
 
 .content p{
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: 300;
   line-height: 1.3em;
   color: #505050;
-  background-color: #f8f4f0;
   padding: 4vh;
-  border-radius: 2vh;
-  box-shadow: 0 0 3vh rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  text-align: center;
 }
 
 /* Contacts */
@@ -205,9 +215,16 @@ hr{
 .bubble {
   background-color: #f8f4f0;
   box-shadow: 0 0  1vh rgba(0, 0, 0, 0.3);
-  font-size: 2em;
   border-radius: 1rem;
   padding: 1rem 3em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bubble > a{
+  font-size: 2em;
 }
 
 
@@ -282,14 +299,18 @@ hr{
     border-radius: 25vh;
   }
 
-  .content {
+  .container{
     padding: 3vh 5vw;
   }
 
   .content p{
     font-size: 1em;
-    padding: 3vh 5vw;
+    padding: 2vh;
   }
 
+  .bubble > a{
+    font-size: 1em;
+  }
+  
 
 }
