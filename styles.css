@@ -227,6 +227,9 @@ hr{
   font-size: 2em;
 }
 
+.mobile-nav{
+  display: none;
+}
 
 
 
@@ -312,5 +315,32 @@ hr{
     font-size: 1em;
   }
   
+  .mobile-nav{
+    position: absolute;
+    background-color: #505050;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
+  .mobile-nav span{
+    text-transform: lowercase;
+  }
+
+  .mobile-nav li, a, span{
+    color: #f8f4f0;
+    padding: 2vh;
+    font-size: 1.5em;
+  }
+
+  .hero span{
+    color: #505050;
+  }
+
+  .mobile-nav ul{
+    display: flex;
+    flex-direction: column;
+  }
 }
