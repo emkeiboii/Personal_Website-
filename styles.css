@@ -227,7 +227,11 @@ hr{
   font-size: 2em;
 }
 
-.mobile-nav{
+#mobile-nav{
+  display: none;
+}
+
+#moon-button{
   display: none;
 }
 
@@ -246,18 +250,19 @@ hr{
     display: none;
   }
 
-  .mobile-menu {
+  #mobile-menu {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .mobile-menu .moon-button{
+  #mobile-menu #moon-button{
     background-color: transparent;
     border-style: none;
     padding: 6vw 0;
+    display: inline-block;
   }
-  .mobile-menu .moon-button img{
+  #mobile-menu > #moon-button img{
     height: 9vw;
   }
 
@@ -316,7 +321,7 @@ hr{
     font-size: 1em;
   }
   
-  .mobile-nav{
+  #mobile-nav{
     position: absolute;
     background-color: #505050;
     width: 100vw;
@@ -329,11 +334,11 @@ hr{
     transition: opacity 0.2s ease-in-out;
   }
 
-  .mobile-nav span{
+  #mobile-nav span{
     text-transform: lowercase;
   }
 
-  .mobile-nav li, a, span{
+  #mobile-nav li, a, span{
     color: #f8f4f0;
     padding: 2vh;
     font-size: 1.5em;
@@ -343,12 +348,18 @@ hr{
     color: #505050;
   }
 
-  .mobile-nav ul{
+  .bubble > a{
+    color: #505050;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  #mobile-nav ul{
     display: flex;
     flex-direction: column;
   }
 
-  .mobile-nav.open{
+  #mobile-nav.open{
     visibility: visible;
     opacity: 1;
   }
