@@ -235,6 +235,27 @@ hr{
   display: none;
 }
 
+/* Loader */
+
+
+.wrapper-loader{
+  width: 100vw;
+  height: 100vh;
+  background-color: #505050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader img{
+  width: 10vw;
+  animation: rotation 5s infinite linear;
+}
+
+
+
+
+
 
 
 
@@ -292,9 +313,12 @@ hr{
     font-weight: 700;
   }
 
+  .downloadcv{
+    top: 100vh;
+  }
   .downloadcv p{
     font-size: 2em;
-    top: 28%;
+    top: 26%;
   }
 
   .downloadcv img{
